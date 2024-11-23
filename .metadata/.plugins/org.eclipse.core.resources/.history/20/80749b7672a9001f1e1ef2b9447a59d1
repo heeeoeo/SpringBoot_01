@@ -1,0 +1,19 @@
+package com.mysite.sbb;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class BookLombok {
+	private String title;
+	private String author;
+	
+	public static void main(String[] args) {
+		HelloLombok helloLombok = new HelloLombok();
+		
+		System.out.println(helloLombok.getTitle);
+		System.out.println(helloLombok.getAuthor);
+	}
+
+}
